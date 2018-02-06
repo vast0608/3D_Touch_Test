@@ -13,6 +13,7 @@
 		2C0A86A5202950B20074F625 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C0A86A4202950B20074F625 /* Assets.xcassets */; };
 		2C0A86A8202950B20074F625 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C0A86A6202950B20074F625 /* LaunchScreen.storyboard */; };
 		2C0A86AB202950B20074F625 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0A86AA202950B20074F625 /* main.m */; };
+		2C0A86B3202952580074F625 /* ViewController0.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0A86B2202952580074F625 /* ViewController0.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		2C0A86A7202950B20074F625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C0A86A9202950B20074F625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C0A86AA202950B20074F625 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C0A86B1202952580074F625 /* ViewController0.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController0.h; sourceTree = "<group>"; };
+		2C0A86B2202952580074F625 /* ViewController0.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController0.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				2C0A869C202950B20074F625 /* AppDelegate.m */,
 				2C0A869E202950B20074F625 /* ViewController.h */,
 				2C0A869F202950B20074F625 /* ViewController.m */,
+				2C0A86B1202952580074F625 /* ViewController0.h */,
+				2C0A86B2202952580074F625 /* ViewController0.m */,
 				2C0A86A1202950B20074F625 /* Main.storyboard */,
 				2C0A86A4202950B20074F625 /* Assets.xcassets */,
 				2C0A86A6202950B20074F625 /* LaunchScreen.storyboard */,
@@ -145,6 +150,7 @@
 				2C0A86A0202950B20074F625 /* ViewController.m in Sources */,
 				2C0A86AB202950B20074F625 /* main.m in Sources */,
 				2C0A869D202950B20074F625 /* AppDelegate.m in Sources */,
+				2C0A86B3202952580074F625 /* ViewController0.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +285,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U653Q9Q3XP;
 				INFOPLIST_FILE = 3D_Touch_Test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.onmmc.-D-Touch-Test";
@@ -292,6 +299,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U653Q9Q3XP;
 				INFOPLIST_FILE = 3D_Touch_Test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.onmmc.-D-Touch-Test";
